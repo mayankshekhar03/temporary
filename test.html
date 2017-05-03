@@ -45,7 +45,7 @@ function myFunction(response) {
 			var category_name = response[i]["product_types"][j]["display_name"];
 			var category_url = response[i]["product_types"][j]["url"];
 			var category_icon = response[i]["product_types"][j]["icon"];
-			out += '<a href="https://www.buzzopinion.com'+category_url+'"><img src="https://www.buzzopinion.com'+category_icon+'" height="20px" width="20px">&nbsp;'+category_name+'</a><br>';
+			out += '<a href="https://www.buzzopinion.com'+category_url+'?app=true"><img src="https://www.buzzopinion.com'+category_icon+'" height="20px" width="20px">&nbsp;'+category_name+'</a><br>';
 		}
 		out += '</div>';
 	}
